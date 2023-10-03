@@ -16,10 +16,13 @@ async def on_ready():
 
 @bot.command()
 async def ping(ctx):
+    print("do ping()")
     await ctx.send('pong')
 
 @bot.command()
+
 async def hello(ctx):
+    print("do hello()")
     await ctx.send("Choo choo! 🚅")
 
 
